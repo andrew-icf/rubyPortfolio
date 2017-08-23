@@ -1,4 +1,5 @@
 class BlogsController < ApplicationController
+    # running :set_blog method for the following methods, DRY
   before_action :set_blog, only: [:show, :edit, :update, :destroy]
 
   # GET /blogs
